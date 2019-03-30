@@ -13,12 +13,14 @@ log.info('Starting GyroSensor Reader Program')
 
 any_button = Button()
 gyro_sensor = GyroSensor()
-
+cs = ColorSensor()
 
 try:
     while not any_button.any():
         angle = gyro_sensor.angle
-        log.info('Angle in Degree ' + str(angle))
+        intensity = cs.reflected_light_intensity        
+        
+        log.info('Angle in Degree ' + str(angle) + ' Reflected light intensity ' + str(intensity))
 
         #gyro_sensor.reset()
         gyro_sensor.wait_until_angle_changed_by(90)
