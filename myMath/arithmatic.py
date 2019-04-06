@@ -1,6 +1,14 @@
-class Arithmatic:    
+class Arithmatic:
 
-    def Addition(self, x, y):
+    #This function does adding to integer
+    def Add(self, x, y):
         return x + y
 
-    
+    #This fnction does su
+    def Subtraction(self, x, y):
+        return x - y
+
+
+
+
+
