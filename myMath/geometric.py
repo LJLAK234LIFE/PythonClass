@@ -5,3 +5,5 @@ class Geometric:
  
     def Division(self, x, y):
         return x / y
+
+    #self represents the class of geometric function
