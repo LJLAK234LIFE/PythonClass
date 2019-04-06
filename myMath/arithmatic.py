@@ -1,6 +1,7 @@
 class Arithmatic:    
 
-    def Addition(self, x, y):
+    def Addition(x, y):
         return x + y
 
-    
+    def Subtraction(x, y):
+        return x - y
