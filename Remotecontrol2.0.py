@@ -29,11 +29,11 @@ try:
             print("going backwards")
 
         elif press == "r":
-            tank_pair.on(left_speed = 50, right_speed = 0)
+            tank_pair.on(left_speed = 25, right_speed = 0)
             print("going right")
 
         elif press == "l":
-            tank_pair.on(left_speed = 0, right_speed = 50)
+            tank_pair.on(left_speed = 0, right_speed = 25)
             print("going left")
 
         elif press == "e":
